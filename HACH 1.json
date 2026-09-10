@@ -1,0 +1,470 @@
+{
+  "id": "6a7ea85e2abc6f2080a2419c",
+  "userId": "6a7aa390a45814d289397dfb",
+  "name": "HACH 1",
+  "type": "node-editor",
+  "nodes": [
+    {
+      "id": "Forever_5a27de^^1786685950159^^15s9q7ppud2",
+      "type": "Forever",
+      "position": {
+        "x": 542.0134246904579,
+        "y": 278.89705875801394
+      },
+      "data": {},
+      "category": "Uncategorized",
+      "measured": {
+        "width": 162,
+        "height": 116
+      }
+    },
+    {
+      "data": {
+        "right": "None",
+        "left": "UID",
+        "operator": "=="
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "width": 270,
+        "height": 107
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "ifelse_8b27fa^^1786686011229^^yrf5iewyem",
+      "type": "ifelse",
+      "position": {
+        "x": 1061.602381994489,
+        "y": 645.6620313680971
+      }
+    },
+    {
+      "dragging": false,
+      "id": "neopixel_98f7w2^^1786686044373^^aj12e922c1",
+      "type": "neopixel_Built-in",
+      "position": {
+        "x": 1695.0036616444406,
+        "y": 890.7615566312887
+      },
+      "data": {
+        "pin": "9",
+        "ledCount": "20",
+        "startIndex": "0",
+        "endIndex": "19",
+        "brightness": "50",
+        "color": "#11ff00"
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "width": 221,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "dragging": false,
+      "id": "neopixel_98f7w2^^1786686074605^^5ahd7gurab",
+      "type": "neopixel_Built-in",
+      "position": {
+        "x": 879.5959847976235,
+        "y": 899.7584863243078
+      },
+      "data": {
+        "color": "#FF0000",
+        "pin": "9",
+        "ledCount": "20",
+        "startIndex": "0",
+        "endIndex": "19",
+        "brightness": "50"
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "width": 221,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "category": "Uncategorized",
+      "measured": {
+        "width": 192,
+        "height": 99
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "print001^^1786686406431^^ng6zrl3ltya",
+      "type": "print",
+      "position": {
+        "x": 1372.1679912788786,
+        "y": 1277.593339363026
+      },
+      "data": {
+        "value": "\"TOOLISSUED\""
+      }
+    },
+    {
+      "selected": false,
+      "dragging": false,
+      "id": "Buzzer_tone_38ab7c^^1786686432734^^khf487heun7",
+      "type": "Buzzer_tone",
+      "position": {
+        "x": 507.9900282198661,
+        "y": 1037.8361831233824
+      },
+      "data": {
+        "Port": "Port 4",
+        "Buzzer_pin_38ab7c": "21",
+        "Buzzer_tone_38ab7c": "ON"
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "height": 177,
+        "width": 211
+      }
+    },
+    {
+      "category": "Uncategorized",
+      "measured": {
+        "height": 107,
+        "width": 270
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "ifelse_8b27fa^^1786686536371^^ppyeg98gcv",
+      "type": "ifelse",
+      "position": {
+        "x": 1447.2694494955285,
+        "y": 649.5743280926188
+      },
+      "data": {
+        "right": "9186",
+        "left": "distance",
+        "operator": "=="
+      }
+    },
+    {
+      "position": {
+        "x": 516.90209851466,
+        "y": 1311.5917785159897
+      },
+      "data": {
+        "value": "\"ACCESS DENIED\""
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "width": 192,
+        "height": 99
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "print001^^1786686703556^^fhwnd5yuyn8",
+      "type": "print"
+    },
+    {
+      "id": "Buzzer_tone_38ab7c^^1786686992455^^des61cy54i7",
+      "type": "Buzzer_tone",
+      "position": {
+        "x": 1366.229894000081,
+        "y": 984.4598488437589
+      },
+      "data": {
+        "Port": "Port 4",
+        "Buzzer_pin_38ab7c": "21",
+        "Buzzer_tone_38ab7c": "OFF"
+      },
+      "category": "Uncategorized",
+      "measured": {
+        "width": 211,
+        "height": 177
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "position": {
+        "x": 1116.8215451402873,
+        "y": 395.72616001086163
+      },
+      "data": {
+        "value": "uid"
+      },
+      "measured": {
+        "width": 122,
+        "height": 99
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "print001^^1786860684623^^guisnw7j3fr",
+      "type": "print"
+    },
+    {
+      "position": {
+        "x": 1414.5405240334328,
+        "y": 384.800692895517
+      },
+      "data": {
+        "duration": "1"
+      },
+      "measured": {
+        "width": 104,
+        "height": 101
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "sleep_d36a9c^^1786860691918^^578mf2i2r5u",
+      "type": "sleep"
+    },
+    {
+      "type": "sleep",
+      "position": {
+        "y": 1513.1310369135617,
+        "x": 845.4233509434044
+      },
+      "data": {
+        "duration": "1"
+      },
+      "measured": {
+        "width": 104,
+        "height": 101
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "sleep_d36a9c^^1786860953244^^onv079yqo39"
+    },
+    {
+      "selected": true,
+      "dragging": false,
+      "id": "Buzzer_tone_38ab7c^^1786860965969^^969wuntqk7c",
+      "type": "Buzzer_tone",
+      "position": {
+        "x": 486.37122706400305,
+        "y": 1524.9177309714453
+      },
+      "data": {
+        "Port": "Port 4",
+        "Buzzer_pin_38ab7c": "21",
+        "Buzzer_tone_38ab7c": "OFF"
+      },
+      "measured": {
+        "height": 177,
+        "width": 211
+      }
+    },
+    {
+      "type": "rfid_rc522",
+      "position": {
+        "x": 752.3217837340335,
+        "y": 398.16895023823713
+      },
+      "data": {
+        "Port": "Port 5",
+        "misoPin": "5",
+        "mosiPin": "6",
+        "sckPin": "7",
+        "csPin": "8",
+        "uid_var": "uid"
+      },
+      "measured": {
+        "width": 196,
+        "height": 299
+      },
+      "selected": false,
+      "dragging": false,
+      "id": "rfid_rc522_01^^1786861032519^^j39jhy5u7m"
+    }
+  ],
+  "edges": [
+    {
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "sourceHandle": "out",
+      "source": "neopixel_98f7w2^^1786686074605^^5ahd7gurab",
+      "targetHandle": "in",
+      "target": "Buzzer_tone_38ab7c^^1786686432734^^khf487heun7",
+      "id": "xy-edge__neopixel_98f7w2^^1786686074605^^5ahd7gurabout-Buzzer_tone_38ab7c^^1786686432734^^khf487heun7in",
+      "type": "smoothstep",
+      "className": "starter-flow-edge"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "id": "edge-1786686760551",
+      "sourceHandle": "out",
+      "target": "print001^^1786686703556^^fhwnd5yuyn8",
+      "targetHandle": "in",
+      "source": "Buzzer_tone_38ab7c^^1786686432734^^khf487heun7",
+      "className": "starter-flow-edge"
+    },
+    {
+      "id": "edge-1786687038560",
+      "source": "Buzzer_tone_38ab7c^^1786686992455^^des61cy54i7",
+      "sourceHandle": "out",
+      "type": "smoothstep",
+      "animated": true,
+      "className": "starter-flow-edge",
+      "targetHandle": "in",
+      "target": "print001^^1786686406431^^ng6zrl3ltya",
+      "style": {
+        "strokeWidth": 3
+      }
+    },
+    {
+      "animated": true,
+      "source": "print001^^1786860684623^^guisnw7j3fr",
+      "sourceHandle": "out",
+      "target": "sleep_d36a9c^^1786860691918^^578mf2i2r5u",
+      "type": "smoothstep",
+      "className": "starter-flow-edge",
+      "style": {
+        "strokeWidth": 3
+      },
+      "targetHandle": "in",
+      "id": "xy-edge__print001^^1786860684623^^guisnw7j3frout-sleep_d36a9c^^1786860691918^^578mf2i2r5uin"
+    },
+    {
+      "animated": true,
+      "className": "starter-flow-edge",
+      "source": "sleep_d36a9c^^1786860691918^^578mf2i2r5u",
+      "sourceHandle": "out",
+      "target": "ifelse_8b27fa^^1786686011229^^yrf5iewyem",
+      "id": "xy-edge__sleep_d36a9c^^1786860691918^^578mf2i2r5uout-ifelse_8b27fa^^1786686011229^^yrf5iewyemin",
+      "type": "smoothstep",
+      "style": {
+        "strokeWidth": 3
+      },
+      "targetHandle": "in"
+    },
+    {
+      "id": "xy-edge__ifelse_8b27fa^^1786686011229^^yrf5iewyemtrue-ifelse_8b27fa^^1786686536371^^ppyeg98gcvin",
+      "selected": false,
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "source": "ifelse_8b27fa^^1786686011229^^yrf5iewyem",
+      "sourceHandle": "true",
+      "targetHandle": "in",
+      "className": "starter-flow-edge",
+      "target": "ifelse_8b27fa^^1786686536371^^ppyeg98gcv"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "className": "starter-flow-edge",
+      "target": "neopixel_98f7w2^^1786686074605^^5ahd7gurab",
+      "targetHandle": "in",
+      "id": "xy-edge__ifelse_8b27fa^^1786686536371^^ppyeg98gcvtrue-neopixel_98f7w2^^1786686074605^^5ahd7gurabin",
+      "style": {
+        "strokeWidth": 3
+      },
+      "source": "ifelse_8b27fa^^1786686536371^^ppyeg98gcv",
+      "sourceHandle": "true"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "source": "ifelse_8b27fa^^1786686536371^^ppyeg98gcv",
+      "target": "neopixel_98f7w2^^1786686044373^^aj12e922c1",
+      "className": "starter-flow-edge",
+      "sourceHandle": "false",
+      "targetHandle": "in",
+      "id": "xy-edge__ifelse_8b27fa^^1786686536371^^ppyeg98gcvfalse-neopixel_98f7w2^^1786686044373^^aj12e922c1in"
+    },
+    {
+      "id": "xy-edge__neopixel_98f7w2^^1786686044373^^aj12e922c1out-Buzzer_tone_38ab7c^^1786686992455^^des61cy54i7in",
+      "type": "smoothstep",
+      "style": {
+        "strokeWidth": 3
+      },
+      "sourceHandle": "out",
+      "animated": true,
+      "className": "starter-flow-edge",
+      "source": "neopixel_98f7w2^^1786686044373^^aj12e922c1",
+      "target": "Buzzer_tone_38ab7c^^1786686992455^^des61cy54i7",
+      "targetHandle": "in"
+    },
+    {
+      "id": "xy-edge__print001^^1786686703556^^fhwnd5yuyn8out-sleep_d36a9c^^1786860953244^^onv079yqo39in",
+      "className": "starter-flow-edge",
+      "target": "sleep_d36a9c^^1786860953244^^onv079yqo39",
+      "targetHandle": "in",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "source": "print001^^1786686703556^^fhwnd5yuyn8",
+      "sourceHandle": "out"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "sourceHandle": "out",
+      "target": "Buzzer_tone_38ab7c^^1786860965969^^969wuntqk7c",
+      "targetHandle": "in",
+      "id": "xy-edge__sleep_d36a9c^^1786860953244^^onv079yqo39out-Buzzer_tone_38ab7c^^1786860965969^^969wuntqk7cin",
+      "className": "starter-flow-edge",
+      "source": "sleep_d36a9c^^1786860953244^^onv079yqo39"
+    },
+    {
+      "targetHandle": "in",
+      "id": "xy-edge__Forever_5a27de^^1786685950159^^15s9q7ppud2body-rfid_rc522_01^^1786861032519^^j39jhy5u7min",
+      "animated": true,
+      "style": {
+        "strokeWidth": 3
+      },
+      "source": "Forever_5a27de^^1786685950159^^15s9q7ppud2",
+      "sourceHandle": "body",
+      "target": "rfid_rc522_01^^1786861032519^^j39jhy5u7m",
+      "type": "smoothstep",
+      "className": "starter-flow-edge"
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "className": "starter-flow-edge",
+      "source": "rfid_rc522_01^^1786861032519^^j39jhy5u7m",
+      "target": "print001^^1786860684623^^guisnw7j3fr",
+      "targetHandle": "in",
+      "style": {
+        "strokeWidth": 3
+      },
+      "sourceHandle": "return:uid_var",
+      "id": "xy-edge__rfid_rc522_01^^1786861032519^^j39jhy5u7mreturn:uid_var-print001^^1786860684623^^guisnw7j3frin"
+    }
+  ],
+  "metadata": {
+    "boardId": "quark-c3",
+    "runtime": "micropython",
+    "createdMode": "developer",
+    "runtimeId": "micropython",
+    "fqbn": "esp32:esp32:esp32c3",
+    "language": "python",
+    "board": "Quark C3",
+    "productFlow": "figma-refresh",
+    "workspaceContext": {
+      "source": "project",
+      "runtimeId": "micropython",
+      "boardId": "quark-c3",
+      "fqbn": "esp32:esp32:esp32c3",
+      "runtime": "micropython",
+      "language": "python",
+      "board": "Quark C3",
+      "mode": "developer"
+    }
+  },
+  "createdAt": "2026-08-14T05:32:14.911Z",
+  "updatedAt": "2026-08-16T06:19:17.061Z"
+}
